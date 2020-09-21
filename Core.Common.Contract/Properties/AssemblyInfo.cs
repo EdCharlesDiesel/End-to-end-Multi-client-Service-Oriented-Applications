@@ -5,11 +5,11 @@ using System.Runtime.Serialization;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CarRental.Business.Entities")]
+[assembly: AssemblyTitle("Core.Common.Contract")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CarRental.Business.Entities")]
+[assembly: AssemblyProduct("Core.Common.Contract")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.Serialization;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c19c534b-83c1-417a-a49a-a5a33f374229")]
+[assembly: Guid("bc1a7046-a312-4939-9e44-d23c46a62f01")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -37,5 +37,4 @@ using System.Runtime.Serialization;
 
 
 [assembly: ContractNamespace("http://www.pluralsight.com/MiguelCastro/CarRental",
-                              ClrNamespace = "CarRental.Business.Entities")]
-
+                              ClrNamespace = "CarRental.Client.Entities")]
